@@ -19,7 +19,7 @@ class DynamicArray:
         self.arr[i] = n
 
     def pushback(self, n: int) -> None:
-        # check if the capcity is full - then resize the array with double capacity
+        # check if the capacity is full - then resize the array with double capacity
         if self.size == self.capacity:
             self.resize()
         self.arr[self.size] = n
